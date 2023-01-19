@@ -1,0 +1,83 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('Resources/Background.jpg');
+}
+
+body {
+    width: fit-content;
+    margin: 0 auto;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border: 1px solid #333;
+    box-shadow: 1px 1px 4px #ccc;
+    padding: 20px;
+    justify-self: center;
+    width: 50%;
+}
+
+header {
+    text-align: center;
+    background-color: #f2f2f2;
+    transition: background-color 1s;
+}
+
+.flex-coloumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+section:hover{
+    background-color: white;
+}
+
+.contact_info{
+    justify-content: space-between;
+    width: 60%;
+    padding: 5px;   
+    background-color: lightgoldenrodyellow;
+}
+
+.general_info{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+.other_info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+a{
+    color: #333;
+    transition: background-color 1s;
+}
+
+a:hover{
+    color: #0077ff;
+}
+h1 {
+    line-height: 50%;
+    font-family: fantasy;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+}
+
+td {
+    padding: 5px 10px;
+    vertical-align: top;
+}
