@@ -21,6 +21,11 @@ header {
     transition: background-color 1s;
 }
 
+.tocenter{
+    justify-self: center;
+    justify-content: center;
+}
+
 .flex-coloumn{
     display: flex;
     flex-direction: column;
@@ -44,15 +49,17 @@ section:hover{
 
 .general_info{
     display: flex;
-    flex-direction: column;
-    width: 70%;
-
+    flex-direction: column; 
+    padding: 10px;
+    width: 60%;
 }
 
 .other_info{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    border-left: 1px solid;
+    padding: 10px;
+    width: 40%;
 }
 
 a{
@@ -72,12 +79,10 @@ h3 {
     font-weight: normal;
 }
 
-table {
-    width: 100%;
-    max-width: 600px;
+hr{
+    color:black;
 }
 
-td {
-    padding: 5px 10px;
-    vertical-align: top;
+ul{
+    list-style-type:none;
 }
